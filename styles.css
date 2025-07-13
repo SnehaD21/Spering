@@ -1,0 +1,313 @@
+nav
+{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+nav a 
+{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+#div1
+{
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    align-items: center;
+    background-color:black;
+    grid-gap: 70px;
+}
+.hire
+{
+   color:white;
+   padding:40px;
+   height:max-content;
+   width: 100%;
+}
+.slider
+{
+   background-color: #1cbbb4;
+}
+#div1 h1
+{
+    font-size: 50px;
+    font-weight: 900;
+    word-spacing: 10px;
+}
+#div1 p
+{
+    font-size: 24px;
+}
+.btn1
+{
+    background-color: #ff4f5a;
+    color: white;
+    border: 2x solid #ff4f5a;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+}
+.btn1:hover
+{
+    background-color: white;
+    color:#ff4f5a;
+}
+.btn2
+{
+    background-color: black;
+    color: white;
+    border: 2x solid black;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.btn2:hover
+{
+    background-color: white;
+    color:#ffffff;
+}
+.text:hover
+{
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.btn4
+{
+    background-color: #ff4f5a;
+    color: white;
+    border: 2x solid #ff4f5a;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+}
+.btn4:hover
+{
+    background-color: black;
+    color:#ff4f5a;
+}
+.btn5
+{
+    background-color: white;
+    color: black;
+    border: 2x solid white;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.btn5:hover
+{
+    background-color: black;
+    color:#ffffff;
+}
+.text1:hover
+{
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.a1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 25px;   
+}
+#ab1
+{
+    height: 450px;
+    width: 500px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+#div2 h1
+{
+     font-size: 40px;
+     font-weight: 700;
+}
+#div2 p
+{
+    font-size: 20px;
+}
+#grd1
+{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-gap: 50px;
+    padding: 50px;
+}
+.g1
+{
+    background-color: #1cbbb4;
+    color:white;
+}
+.g1 h1
+{
+    text-align: center;
+    font-weight: 900;
+    text-decoration: 1px solid underline white;
+    padding: 30px;
+}
+/* About */
+.abt
+{
+    height: 500px;
+    width:850px;
+    display: block;
+    margin: 0 auto;
+}
+#div3 h1
+{
+     font-size: 30px;
+     font-weight: 900;
+}
+#div3 p
+{
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+.btn3
+{
+    background-color: #ff4f5a;
+    color: white;
+    border: 2x solid #ff4f5a;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    display:block;
+    margin: 0 auto;
+}
+.btn3:hover
+{
+    background-color: white;
+    color:#ff4f5a;
+}
+.box
+{
+    height: 200px;
+    width: 750px;
+    padding: 20px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: 60px;
+    margin: 30px auto;
+}
+/* Work of freelancer */
+.work
+{
+    display:flex;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+.fl
+{
+    height: 450px;
+    width: 550px;
+    padding-top: 80px;
+    padding-left: 110px;
+}
+.f2
+{
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    border-radius: 90%;
+    border: solid black;
+    width: 90px;
+    /* margin-left: 30px ; */
+}
+.f2:hover
+{
+    background-color: #1cbbb4;
+    border-color: #1cbbb4;
+}
+.st
+{
+    display: flex;
+    padding: 5px;
+    gap: 25px;
+    margin: 5px;
+}
+.RS
+{
+    font-size: 22px;
+    font-weight:bolder;
+    color: #ff4f5a;
+}
+.DES
+{
+    font-weight:bolder;
+    font-size: 30px;
+}
+.Social
+{
+    background-color: black;
+    margin-top: 40px;
+    position: absolute;
+    right: 0;
+    /* justify-content: space-evenly; */
+    padding-right: 20px;
+    margin-right: 20px;
+}
+.H
+{
+    text-decoration: none;
+}
+.End
+{
+    display: flex;
+    background-color: black; 
+}
+#grd2
+{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 20px;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    grid-gap: 30px;
+    padding: 20px;
+    font-size: 18px;
+    /* background-color: black;
+    color: white; */
+}
+.Info 
+{
+    text-align: center;
+    /* padding: 30px ; */
+    margin: 30px;
+    justify-content: space-between;
+}
+.Final 
+{
+    background-color: black;
+    color: white;
+    padding-top: 70px;
+    color:white;
+   padding:40px;
+   /* height:max-content; */
+}
+input[type=email]
+{
+    height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+}
